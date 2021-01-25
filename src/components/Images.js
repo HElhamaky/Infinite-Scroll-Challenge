@@ -17,7 +17,7 @@ export class Images extends Component {
         const images = data.msg;
         const newImages = images.map((image) => {
           return {
-            src: image.urls.thumb,
+            src: image.urls.small,
             width: image.width,
             height: image.height,
           };
@@ -35,7 +35,7 @@ export class Images extends Component {
         const images = data.msg;
         const newImages = images.map((image) => {
           return {
-            src: image.urls.thumb,
+            src: image.urls.small,
             width: image.width,
             height: image.height,
           };
